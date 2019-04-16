@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+  <h2>Players Page</h2>
+
+  <ul>
+    {% for player in players %}
+      <li><a href="{{ url_for('player',pid=player['id']) }}">{{player['name']}}</a></li>
+    {% endfor %}
+  </ul>
+
+  <!--<h3> This is the end of my child template</h3>-->
+{% endblock %}
