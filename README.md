@@ -1,26 +1,4 @@
+## Homework for COMS 4111 at Columbia
 
-
-Install pip if needed
-
-        sudo apt-get install python-pip
-
-Install libraries
-
-        pip install click flask sqlalchemy
-
-
-Edit `server.py` to set your database URI
-
-        DATABASEURI = "<your database uri>"
-
-
-Run it in the shell
-
-
-        python server.py
-
-Get help:
-
-        python server.py --help
-
-      
+Our group choose to create a database that explores the world of professional tennis. We
+chose this based on our interest in the topic, as well as our thoughts that resources to aid in creating this database would be conveniently accessible. Sports-related statistics require the careful consideration of various entities and relationships.
